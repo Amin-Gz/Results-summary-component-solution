@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="./assets/css/output.css" /> -->
+    <title>Document</title>
+    <style>
+      .shadow-amincss {
+        box-shadow: 2px 0px 20px 1px rgb(222, 237, 249);
+      }
+      .rc button:nth-last-child(1) {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class="flex justify-center items-center sm:h-screen dark:bg-[#979197]">
+    <!-- shadow-amin nemigire! :) -->
+    <div
+      class="container w-[370px] md:w-[720px] md:h-[520px] rounded-3xl shadow-amincss flex flex-col md:flex-row dark:bg-[#434343] dark:shadow-2xl dark:shadow-[#a4a4a4] m-[50px] sm:mt-[750px] md:mt-[200px] lg:mt-0"
+    >
+      <!-- left container -->
+      <div
+        class="cont2 md:w-1/2 md:h-full rounded-3xl bg-gradient-to-b from-[#7354F8] to-[#2F2BE9] text-center p-[50px] dark:bg-gradient-to-b dark:from-[#3A6073] dark:to-[#004e92]"
+      >
+        <h3
+          class="mb-[45px] text-[#CBCCFF] text-[20px] font-medium tracking-wide"
+        >
+          Your Result
+        </h3>
+        <!-- circle div -->
+        <div
+          class="w-[190px] h-[190px] bg-gradient-to-b from-[#7354F8] to-[#2F2BE933] dark:bg-gradient-to-b dark:from-[#3A6073] dark:to-[#004e92] text-center mx-auto rounded-full mb-[45px] pt-[40px]"
+        >
+          <h2 class="text-white text-[58px] mb-[-10px] font-semibold">76</h2>
+          <p class="text-[#CBCCFF]">of 100</p>
+        </div>
+        <h2 class="mb-[28px] font-medium text-white text-[30px]">Great</h2>
+        <p class="text-[#CBCCFF] text-[14px]">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <!-- right container -->
+      <div class="rc md:h-full w-1/2 rounded-r-3xl p-[30px]">
+        <h2
+          class="my-[40px] text-[20px] text-[#001561] dark:text-[#8896cb] tracking-wide"
+        >
+          Summary
+        </h2>
+        <!-- Boxes flex -->
+        <div class="flex flex-col gap-4">
+          <!-- Box1 -->
+          <div
+            class="w-[290px] h-[55px] bg-[#ff585880] flex items-center justify-between px-[10px] rounded-lg"
+          >
+            <p class="text-[#FEF6F6]">
+              <img
+                src="./assets/images/icon-reaction2.svg"
+                alt=""
+                class="inline mr-[10px] relative top-[-2px]"
+              />Reaction
+            </p>
+            <p class="text-[#CBCCFF]">
+              <span class="text-black">80 </span>/ 100
+            </p>
+          </div>
+          <!-- Box2 -->
+          <div
+            class="w-[290px] h-[55px] bg-[#FFBB3880] flex items-center justify-between px-[10px] rounded-lg"
+          >
+            <p class="text-[#FFFBF4]">
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt=""
+                class="inline mr-[10px] relative top-[-2px]"
+              />Memory
+            </p>
+            <p class="text-[#CBCCFF]">
+              <span class="text-black">80 </span>/ 100
+            </p>
+          </div>
+          <!-- Box3 -->
+          <div
+            class="w-[290px] h-[55px] bg-[#09BDA980] flex items-center justify-between px-[10px] rounded-lg"
+          >
+            <p class="text-[#F2FBF9]">
+              <img
+                src="./assets/images/verbal2.svg"
+                alt=""
+                class="inline mr-[10px] relative top-[-2px]"
+              />verbal
+            </p>
+            <p class="text-[#CBCCFF]">
+              <span class="text-black">80 </span>/ 100
+            </p>
+          </div>
+          <!-- Box4 -->
+          <div
+            class="w-[290px] h-[55px] bg-[#4252D980] flex items-center justify-between px-[10px] rounded-lg"
+          >
+            <p class="text-[#F3F4FD]">
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt=""
+                class="inline mr-[10px] relative top-[-2px]"
+              />visual
+            </p>
+            <p class="text-[#CBCCFF]">
+              <span class="text-black">80 </span>/ 100
+            </p>
+          </div>
+        </div>
+        <!-- btn -->
+        <button
+          class="w-[290px] h-[55px] mt-[32px] bg-[#304560] dark:bg-[#405570] text-white rounded-full block mx-auto"
+        >
+          Continue
+        </button>
+      </div>
+    </div>
+    <script></script>
+  </body>
+</html>
